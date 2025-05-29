@@ -1,0 +1,91 @@
+
+
+
+.fundo{
+    background-color:#0D0D0D;
+}
+
+.titulo{
+    display: flex;
+    background: linear-gradient(to right,#ff0000 ,#e30000,#c60000 ,#aa0000,#8e0000,#710000,#550000,#390000,#1c0000,#000000);
+    color: rgb(255, 0, 0);
+    align-items: center;
+    font-size: 20px;
+    flex-direction: column;
+    box-shadow: 0 30px 40px #f5df19;
+    border-radius: 10px;
+    margin-bottom: 8%;
+}
+
+
+.maim{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.secao_formulario{
+    background-color:#be0505 ;
+    display: flex;
+    width: 20%;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 40px #f5df19;
+    border-radius: 10px;
+   
+}
+
+.formulario_tarefa{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 90%;
+    gap: 5px;
+}
+.novaTarefa{
+    color: rgb(255, 255, 255);
+}
+
+.secao_tarefas{
+    display: flex;
+    background-color: #be0505;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    border-radius: 10px;
+      box-shadow:  0 0 50px #a7b303;
+
+}
+.container_tarefas{
+    padding: 0%;
+   
+}
+.cartao_tarefa_alta {
+    background-color: #710000;
+    width: 100%;
+    border-radius: 10px;
+    display: flex   ;
+    flex-direction: column;
+    color: aliceblue;
+    align-items: center;  
+     margin-bottom: 3%;  
+
+}
+.cartao_tarefa_media{
+    background-color:#710000;
+    border-radius: 10px;
+    display: flex   ;
+    flex-direction: column;
+    color: aliceblue;
+    align-items: center;
+     margin-bottom: 3%;
+}
+.cartao_tarefa_baixa{
+    display: flex   ;
+    flex-direction: column;
+    background-color:#710000;
+    border-radius: 10px;
+    color: aliceblue;
+    align-items: center;
+    
+}

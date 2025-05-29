@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>OrgaNize - Lista de Tarefas</title>
+        <link rel="stylesheet" href="projeto_tarefas.css"/>
+    </head>
+
+<body class="fundo">
+
+    <header class="titulo">
+        <h1>OrgaNize </h1>
+        <p>O Seu jeito de organizar com foco.</p>
+    </header>
+
+
+
+    <main class="maim">
+        <aside class="secao_formulario">
+            <h2 class="novaTarefa">Adicionar nova tarefa</h2>
+            <form class="formulario_tarefa" id="formulario_tarefas">
+                <label for="titulo_tarefa">Título</label>
+                <input type="text" id="titulo_tarefa" required placeholder="Ex: Estudar JavaScript" />
+
+                <label for="descricao_tarefa">Descrição</label>
+                <textarea 
+                    id="descricao_tarefa" 
+                    rows="4" 
+                    placeholder="Ex: Fazer anotações, assistir aula gravada, revisar exercícios..." 
+                    required>
+                </textarea>
+
+                <label for="prioridade_tarefas">Prioridade</label>
+                <select id="prioridade_tarefas" required>
+                    <option value="">Selecione</option>
+                    <option value="alta">Alta</option>
+                    <option value="media">Média</option>
+                    <option value="baixa">Baixa</option>
+                </select>
+
+                <div class="botoes_formulario">
+                    <button type="submit">Adicionar</button>
+                    <button type="reset">Cancelar</button>
+                </div>
+            </form>
+        </aside>
+
+        <section class="secao_tarefas">
+            <h2>Minhas Tarefas</h2>
+            <ul class="container_tarefas" id="lista-tarefas">
+                <!-- EXEMPLOS TEMPORÁRIOS -->
+                <li class="cartao_tarefa_alta">
+                    <h3>Estudar CRUD</h3>
+                    <p class="descricao">Focar no Create e Read primeiro</p>
+                    <p>Prioridade: Alta</p>
+                </li>
+                <li class="cartao_tarefa_media">
+                    <h3>Revisar CSS</h3>
+                    <p class="descricao">Melhorar layout dos cartões</p>
+                    <p>Prioridade: Média</p>
+                </li>
+                <li class="cartao_tarefa_baixa">
+                    <h3>Organizar arquivos</h3>
+                    <p class="descricao">Separar projetos por pastas</p>
+                    <p>Prioridade: Baixa</p>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Projeto desenvolvido na aula de JavaScript</p>
+    </footer>
+
+</body>
+</html>
+
