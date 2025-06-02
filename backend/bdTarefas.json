@@ -1,0 +1,66 @@
+{
+    "tarefas":[
+     {
+        "id": 1,
+        "titulo":"Estudar HTML e CSS",
+        "descricao":"Revisar conseitos de layout, semântia e responsiva",
+        "propriedade":"alta"
+     },
+    {
+        "id": 2,
+        "titulo": "Aprender JavaScript",
+        "descricao": "Estudar variáveis, funções e manipulação do DOM",
+        "propriedade": "media"
+    },
+    {
+        "id": 3,
+        "titulo": "Criar portfólio online",
+        "descricao": "Desenvolver uma página com projetos pessoais e currículo",
+        "propriedade": "alta"
+    },
+    {
+        "id": 4,
+        "titulo": "Revisar Git e GitHub",
+        "descricao": "Praticar comandos básicos e versionamento de código",
+        "propriedade": "baixa"
+    },
+    {
+        "id": 5,
+        "titulo": "Explorar frameworks CSS",
+        "descricao": "Testar Bootstrap e Tailwind para estilização rápida",
+        "propriedade": "media"
+    },
+    {
+        "id": 6,
+        "titulo": "Estudar lógica de programação",
+        "descricao": "Resolver exercícios com estruturas condicionais e loops",
+        "propriedade": "alta"
+    },
+    {
+        "id": 7,
+        "titulo": "Praticar com projetos pequenos",
+        "descricao": "Criar uma calculadora e um to-do list com JavaScript",
+        "propriedade": "media"
+    },
+    {
+        "id": 8,
+        "titulo": "Aprender sobre APIs REST",
+        "descricao": "Estudar como consumir APIs com fetch e Axios",
+        "propriedade": "alta"
+    },
+    {
+        "id": 9,
+        "titulo": "Organizar repositórios no GitHub",
+        "descricao": "Atualizar descrições e separar projetos por tópicos",
+        "propriedade": "baixa"
+    },
+    {
+        "id": 10,
+        "titulo": "Ler documentação do React",
+        "descricao": "Começar com os fundamentos de componentes e estado",
+        "propriedade": "alta"
+    }
+    ]
+
+
+}
